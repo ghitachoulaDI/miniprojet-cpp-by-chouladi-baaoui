@@ -1,0 +1,5 @@
+Licence|1001|Sara Benali|3.72|Informatique
+Master|1002|Youssef Amrani|3.40|Intelligence Artificielle
+Doctorat|1003|Nadia El Fassi|3.90|Dr. Karim Idrissi|3
+Licence|1004|Omar Alaoui|2.85|Mathematiques
+Master|1005|Lina Berrada|3.95|Data Mining

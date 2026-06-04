@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentDialog</class>
+ <widget class="QDialog" name="StudentDialog">
+  <property name="windowTitle"><string>Fiche etudiant</string></property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

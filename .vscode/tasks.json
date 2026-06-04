@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["-S", ".", "-B", "build", "-G", "MinGW Makefiles"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake: build StudentManager",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--build", "build", "--target", "StudentManager"],
+            "group": { "kind": "build", "isDefault": true },
+            "dependsOn": "CMake: configure",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "CMake: build tests",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--build", "build", "--target", "StudentManagerTests"],
+            "group": "test",
+            "dependsOn": "CMake: configure",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Run tests",
+            "type": "shell",
+            "command": "ctest",
+            "args": ["--test-dir", "build", "--output-on-failure"],
+            "dependsOn": "CMake: build tests",
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}

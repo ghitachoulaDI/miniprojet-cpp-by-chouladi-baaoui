@@ -1,0 +1,15 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "MinGW Makefiles",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.ui": "xml",
+        "memory": "cpp",
+        "vector": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "algorithm": "cpp"
+    }
+}

@@ -1,0 +1,2 @@
+Master|1002|Cherif Omar|3.7|Cloud
+Doctorat|1003|Meziane Riad|3.9|Dr. Hadj|2
