@@ -59,8 +59,7 @@ Doctorat|1003|Nadia El Fassi|3.90|Dr. Karim Idrissi|3
 - Minimum 10 commits au nom des deux membres.
 
 ## Lien Video
-
-
+https://drive.google.com/file/d/18wtFhR_gHtGl0fgvjlN02WQmknlV9_yY/view?usp=sharing
 ## Auteurs
 
 - Marwa Baaoui
