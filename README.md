@@ -58,6 +58,10 @@ Doctorat|1003|Nadia El Fassi|3.90|Dr. Karim Idrissi|3
 - Pull requests vers `main`.
 - Minimum 10 commits au nom des deux membres.
 
+## Lien Video
+
+https://drive.google.com/file/d/1gC5CT4H-NCoP1NRilMzIRsQLuSmybgDl/view?usp=sharing
+
 ## Auteurs
 
 - Marwa Baaoui
